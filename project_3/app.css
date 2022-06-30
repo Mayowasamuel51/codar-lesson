@@ -1,0 +1,27 @@
+/* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+body{
+    margin-top: 100px;
+}
+.container div{
+    padding: 27px;
+}
+.container {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin:auto;
+    width:50%;
+}
+.box-1 h1{
+    font-family: Arial;
+}
+.box-1 input[type='text']{
+    padding: 8px;
+    width:100%;
+
+}
+.box-1 button{
+    padding: 9px;
+    margin-top: 30px;
+    width:100%;
+    background-color: black;
+    color:white;
+}
